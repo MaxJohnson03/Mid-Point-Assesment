@@ -1,0 +1,14 @@
+spamcount = 0
+while True:
+    spamamount = int(input("How many slices of spam would you like? "))
+    spam = "spam,"
+    spamcount += spamamount
+    if spamcount <1:
+        print("You must have atleast one slice. ")
+    elif spamcount ==1:
+        print("Egg with spam coming up!")
+        break
+    else:
+        spamcount -=1
+        print("Egg with",spam*spamcount,"and spam coming up!")
+        break

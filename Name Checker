@@ -1,0 +1,6 @@
+name = input("Enter your name.")
+firstname = name.split(" ", 1)[0]
+if firstname.capitalize() == "Lord" or firstname.capitalize() == "Lady":
+    print("Greetings",name,"! ")
+else:
+    print("You may not be known by that name! ")
